@@ -3,12 +3,10 @@ import './App.css';
 import { Main } from './components/Main';
 
 function App() {
-  // useEffect(() => {
-  //   fetch("https://word.alexi.workers.dev", {
-  //     "mode": "no-cors"
-  //   })
-  //   .then(res => console.log(res))
-  // }, []);
+  useEffect(() => {
+    fetch("https://word.alexi.workers.dev")
+    .then(res => console.log(res))
+  }, []);
 
   return (
    <Main />

@@ -1,6 +1,4 @@
 .container {
   display: flex;
   flex-direction: column;
-  /* border: solid white 5px;
-  border-radius: 5%; */
 }
