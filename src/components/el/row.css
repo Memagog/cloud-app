@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.el {
+  width: 60px;
+  height: 80px;
+  background-color: aliceblue;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .el:hover {
+  background-color: #c3cbd3;
+} */
